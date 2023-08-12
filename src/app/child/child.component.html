@@ -1,0 +1,7 @@
+<p>child works!</p>
+<button (click)="onDelete()">Delete</button>
+<p>{{ rupee | usdinr : 50 | currency : "USD" }}</p>
+<div *ngIf="flag">
+  <app-notfound></app-notfound>
+</div>
+<a [routerLink]="['']">Parent</a><br />
